@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="stilio.css">
+</head>
+<body>
+    <h1>salve sua proxima tarefa:</h1>
+    <div id="tasks-conteiner">
+        <div id="tasks-header">
+            <h2>salve a sua proxima tarefa </h2>
+            
+            <form action="" id="add-tasks-form">
+                <input type="text"  id="task-title" placeholder="Oque vocẽ vai fazer?">
+                <button id="add-bnt" type="submit">
+                    <ion-icon name="add-outline"></ion-icon>
+                </button>
+                
+            </form>
+        </div>
+        <div id="task-list-conteiner">
+            <h2>Essas são as suas tarefas:</h2>
+            <ul id="task-list">
+                <li class="task-box template hide" >
+                    <span class="task-title"></span>
+                    <ion-icon class="done-btn" name="checkmark-outline"></ion-icon>
+                    <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script  type = "module"  src = "https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js" ></script> 
+   
+    
+</body>
+
+</html>
